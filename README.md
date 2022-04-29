@@ -5,13 +5,21 @@
 우분투 서버에 MQTT를 설치하고
 
 <mosquitto.conf는 다음과 같이 수정해줌>
+
 //
+
 persistence false \
+
 allow_anonymous false \
+
 connection_messages true \
+
 log_type all \
+
 listener 1883 \
+
 password_file /mosquitto/data/password.txt \
+
 //
 
 <password.txt는 다음과 같이 수정해줌> \
