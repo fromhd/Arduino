@@ -6,14 +6,14 @@
 
 //EDIT THESE LINES TO MATCH YOUR SETUP
 
-#define wifi_ssid "NewRise"
-#define wifi_pass "NoWzz140405#"
+#define wifi_ssid "your lte router's SSID"
+#define wifi_pass "your lte router's Password"
 
-#define mqtt_server "nowzz.duckdns.org"  //MQTT IP Address
-#define mqtt_user "fromhd" 
-#define mqtt_password "NoWzz140405#"
-#define mqtt_port "1883"
-#define mqtt_clientID "NewRiseMQTT"
+#define mqtt_server "your mqtt server address"  //MQTT IP Address
+#define mqtt_user "your mqtt id" 
+#define mqtt_password "your mqtt password"
+#define mqtt_port "your mqtt port --> 1883"
+#define mqtt_clientID "your mqtt clientID - any code or text"
 #define switchTopic "/sonata/remote/"
 
 #define switchPin1 D1
