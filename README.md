@@ -8,17 +8,17 @@
 
 //
 
-persistence false \
+persistence false
 
-allow_anonymous false \
+allow_anonymous false
 
-connection_messages true \
+connection_messages true
 
-log_type all \
+log_type all
 
-listener 1883 \
+listener 1883
 
-password_file /mosquitto/data/password.txt \
+password_file /mosquitto/data/password.txt
 
 //
 
